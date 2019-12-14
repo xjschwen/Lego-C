@@ -18,6 +18,7 @@ task main()
 			motor[Left]=highPower;
 			motor[Right]=lowPower;
 		}
+		Sleep(0);
 	}
 	motor[Left] = 0;
 	motor[Right] = 0;
