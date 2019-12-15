@@ -26,10 +26,10 @@ void backup( int mSec) {
 void randomTurn() {
 	int maxTime = 1000;
 	int minTime = 250;
-	int ms = (rand() % (maxTime - minTime)) + minTime;
+	int msTurnTime = (rand() % (maxTime - minTime)) + minTime;
 	motor[LeftMotor] = 100;
 	motor[RightMotor] = -100;
-	wait1Msec (ms);
+	wait1Msec (msTurnTime);
 }
 
 
